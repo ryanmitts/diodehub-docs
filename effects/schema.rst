@@ -65,14 +65,19 @@ This is the wholistic schema for all possible light effect payloads.
                 "properties": {
                     "cooling": {
                         "type": "number",
-                        "minimum": 0
+                        "minimum": 0,
+                        "default": 50
                     },
                     "sparking": {
                         "type": "number",
-                        "minimum": 0
+                        "minimum": 0,
+                        "default": 120
                     },
                     "speed": {
-                        "$ref": "#/definitions/speed"
+                        "allOf": [
+                            { "$ref": "#/definitions/speed" },
+                            { "default": 20 }
+                        ]
                     }
                 },
                 "additionalProperties": false
