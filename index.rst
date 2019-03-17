@@ -1,7 +1,7 @@
 Welcome to DiodeHub!
 ====================================
 
-DiodeHub is a project I started to control WS2812B light strips.
+`DiodeHub <https://diodehub.com>`_ is a project I started to control WS2812B light strips.
 
 Originally, I was using an Arduino to control the lights, but repprogramming the Arduino each time I wanted the lights to change was inconvenient.
 

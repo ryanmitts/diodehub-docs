@@ -4,6 +4,11 @@
 Installation
 *************
 
+Repository
+============
+
+`diodehub-esp <https://github.com/ryanmits/diodehub-esp>`_
+
 From Binary
 ====================
 If you wish to install the firmware onto an ESP32 device without setting up the entire build environment to do so.
